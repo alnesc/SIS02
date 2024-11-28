@@ -4,7 +4,7 @@ public class Task3 {
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:mysql://localhost:3306/sis2_task3";
         String user = "root";
-        String password = "Alan.050206";
+        String password = "";
 
         Connection connect = DriverManager.getConnection(url, user, password);
         Statement a = connect.createStatement();
